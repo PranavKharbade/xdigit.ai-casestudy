@@ -290,13 +290,13 @@ Set these environment variables in your hosting platform:
 5. Submit a pull request
 
 ### ScreenShots Of UI Screens
-## First Page
+- First Page
 <img width="1919" height="969" alt="Screenshot 2025-10-05 193720" src="https://github.com/user-attachments/assets/28ea3779-1cf5-402e-90cb-d08a0a81e9fe" />
-## Second Page
+- Second Page
 <img width="1918" height="953" alt="Screenshot 2025-10-05 193742" src="https://github.com/user-attachments/assets/a52824b9-e4c7-4a3a-91d5-c8815bde7499" />
-## Third Page
+- Third Page
 <img width="1913" height="933" alt="Screenshot 2025-10-05 193837" src="https://github.com/user-attachments/assets/b603d54a-d5c1-4c6a-a903-589ace0fa3b6" />
-## Language Changed 
+- Language Changed 
 <img width="1902" height="927" alt="Screenshot 2025-10-05 193859" src="https://github.com/user-attachments/assets/405d2f13-d8d8-4204-ae25-539fc124228a" />
 
 
