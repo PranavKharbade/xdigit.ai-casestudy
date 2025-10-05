@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Main content area */
+#main-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Container for form steps */
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Progress bar styling */
+.progress-container {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+/* Step content */
+.step-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Form field spacing */
+.form-field {
+  margin-bottom: 1.5rem;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+/* AI assistance button */
+.ai-assistance-button {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Success/Error messages */
+.status-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.status-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.status-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 0 0.5rem;
+  }
+  
+  .step-content {
+    padding: 1rem;
+  }
+  
+  .button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .button-container > * {
+    width: 100%;
+  }
+}
+
+/* RTL specific styles */
+[dir="rtl"] .button-container {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .ai-assistance-button {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+/* Focus styles for accessibility */
+.step-content:focus-within {
+  outline: 2px solid #1976d2;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .App {
+    background-color: white;
+  }
+  
+  .step-content {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+  
+  .button-container {
+    display: none;
+  }
+}
